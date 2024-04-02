@@ -19,7 +19,7 @@ body {
 
 
 .first_header {
-display: flex;
+    display: flex;
 }
 
 .header_logo {
@@ -103,31 +103,7 @@ display: flex;
     font-size: 18px;
     background-color: #3882f6;
     color: white;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .random_info {
     margin-top: 8px;
@@ -150,12 +126,6 @@ display: flex;
     display: flex;
     justify-content: center;
     }
-
-  
-
-
-
-
 
 .boxdiv {
     display: flex;
@@ -221,7 +191,6 @@ display: flex;
     right: 305px;
     height: 50px;
     width: 300px;
-
 }
 
 
@@ -231,7 +200,6 @@ display: flex;
     height: 350px;
     justify-content: center;
     align-items: center;
- 
 }
 
 .bluebox {
@@ -243,14 +211,14 @@ display: flex;
 }
 
 .subbluebox {
-color: white;
-margin-left: 120px;
-margin-top: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
 }
 
 .p1 {
-font-size: 1.44rem;
-margin-bottom: -15px;
+    font-size: 1.44rem;
+    margin-bottom: -15px;
 }
 
 .p2 {
@@ -283,8 +251,8 @@ margin-bottom: -15px;
 
 
 .footer div {
-margin: 5px;
-font-size: 1.1rem;
-color: white;
+    margin: 5px;
+    font-size: 1.1rem;
+    color: white;
 }
 
