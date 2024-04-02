@@ -1,0 +1,290 @@
+
+
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+    margin: 8px 233px 0px 233px;
+}
+
+.header {
+    margin: -8px 0;
+    height: 535px;
+    background-color: #1F2937;
+}
+
+
+
+.first_header {
+display: flex;
+}
+
+.header_logo {
+    width: 140px;
+    font-size: 24px;
+    margin: 18px 208px ;
+    color: #F9FAF8;
+    font-weight:900;
+}
+
+.header_link {
+    flex: 1;
+    font-size: 18px;
+    color: #E5e7eb;
+    display: flex;
+    width: 500px;
+    margin-left: 53px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_link_child {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 145px;
+}
+
+
+.middle_header {
+    display: flex;
+}
+
+.left_middle_box {
+    margin-left: 210px;
+    margin-top: 102px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.right_middle_box {
+    margin-top:  100px;
+    margin-right: 205px;;
+    padding-top: 9px;
+    background-color:#6d747d;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    height: 228px;
+    width: 522px;
+    justify-content: center;
+    align-items: center;
+}
+
+#awesome {
+    text-align: start;
+    width: 325px;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#subtext {
+    width: 450px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#button_one {
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.random_info {
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_1_flex {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.info_2_flex {
+    display: flex;
+    justify-content: center;
+    }
+
+  
+
+
+
+
+
+.boxdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.childbox {
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+    width: 165px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.box {
+    width: 160px;
+    height: 160px;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(73, 129, 175);
+    border-radius: 15px;
+}
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    background-color: #E5e7eb;
+}
+
+.quote_child {
+    color: #1f2938;
+    margin-left: 350px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    width: 790px;
+    height: 170px;
+}
+
+.god {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;;
+    font-size: 24px;
+    top: 100px;
+    right: 305px;
+    height: 50px;
+    width: 300px;
+
+}
+
+
+.action {
+    background-color: white;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.bluebox {
+    display: flex;
+    width: 1025px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.subbluebox {
+color: white;
+margin-left: 120px;
+margin-top: 30px;
+}
+
+.p1 {
+font-size: 1.44rem;
+margin-bottom: -15px;
+}
+
+.p2 {
+    font-size: 1.1rem;
+}
+
+.signup {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 32px;
+    margin-left: 170px;
+    margin-top: 59px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer div {
+margin: 5px;
+font-size: 1.1rem;
+color: white;
+}
+
